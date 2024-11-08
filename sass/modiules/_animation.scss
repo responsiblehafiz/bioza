@@ -1,0 +1,53 @@
+
+  /*bounce-left-right-animation*/
+
+@keyframes bounceleft{
+  0% {
+      -webkit-transform: translateX(-50px);
+      transform: translateX(-50px);
+  }
+
+  50% {
+      -webkit-transform: translateX(-15px);
+      transform: translateX(-15px);
+  }
+
+  100% {
+      -webkit-transform: translateX(-50px);
+      transform: translateX(-50px);
+  }
+}
+
+
+
+@keyframes rotateme {
+  from {
+  transform: rotate(0deg);
+  }
+  to {
+  transform: rotate(360deg);
+  }
+  }
+
+
+
+
+  @keyframes ripple-blue {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3),
+        0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3),
+        0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3),
+        0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3),
+        0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+    }
+  }
+  
+
+  
+  
+  

@@ -1,0 +1,74 @@
+.service-section{
+    background-color: #101010;
+    .single-service-box{
+        padding: 40px 0 40px 40px;
+        background-color: rgba(255,255,255,0.07058823529411765);
+        overflow: hidden;
+        transition: .5s;
+        .icon{
+            img{
+                transition: .5s;
+            }
+        }
+        &:hover{
+            .content{
+                p{
+                    color: $white;
+                }
+                a{
+                    left: 0;
+                    color: $white;
+                    &::before{
+                        background: $white;
+                    }
+                }
+            }
+            .icon{
+                img{
+                    filter: brightness(0)invert(1);
+                }
+            }
+            background-color: #009E66;
+        }
+        .content{
+            h4{
+                font-size: 22px;
+                line-height: 26px;
+                color: #ffffff;
+                font-weight: 600;
+                font-family: "Montserrat", sans-serif;
+                margin-top: 30px;
+                transition: .5s;
+            }
+            p{
+                font-size: 16px;
+                line-height: 28px;
+                color: #7c838e;
+                font-weight: 400;
+                font-family: "Poppins", sans-serif;
+                transition: .5s;
+                margin-top: 20px;
+            }
+            a{
+                display: inline-block;
+                color: #212121;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+                position: relative;
+                left: -85px;
+                margin-top: 15px;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    width: 25px;
+                    height: 2px;
+                    transition: 0.5s;
+                    background-color: #009e66;
+                    right: -35px;
+                    bottom: 12px;
+                }
+            }
+        }
+    }
+}

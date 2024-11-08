@@ -1,0 +1,157 @@
+.resume-section{
+    background: #101010;
+    .accordion-tabs{
+        .tabs{
+            .tab{
+                display: inline-block;
+                color: #fff;
+                margin-right: 5px;
+                background: #212121;
+                padding: 10px 25px;
+                transition: .5s;
+                cursor: pointer;
+                &#tab-one-label{
+                    background: $primary-color;
+                }
+                &:hover{
+                    background: $primary-color;
+                }
+            }
+            #tab-one-tab-content{
+                &.tab-content{
+                    padding: 20px 20px 20px 10px;
+                }
+                position: relative;
+                .shape-imgs{
+                    position: absolute;
+                    left: -44px;
+                    top: 85px;
+                }
+                .shape-img{
+                    right: -30px;
+                    position: absolute;
+                    top: 85px;
+                }
+                .box-top-upper{
+                    text-align: left;
+                    h2{
+                        font-size: 28px;
+                        color: #ffffff;
+                        font-weight: 600;
+                        margin-bottom: 30px;
+                        font-family: "Montserrat", sans-serif;
+                    }
+                    .single-resume-box{
+                        background: #212121;
+                        padding: 30px 38px 30px;
+                        margin-bottom: 30px;
+                        position: relative;
+                        text-align: left;
+                        .content{
+                            h3{
+                                font-size: 22px;
+                                color: #ffffff;
+                                font-weight: 600;
+                                font-family: "Montserrat", sans-serif;
+                            }
+                            h6{
+                                font-size: 15px;
+                                line-height: 28px;
+                                color: #009e66;
+                                font-weight: 400;
+                                font-family: "Poppins";
+                                margin-top: 4px;
+                            }
+                            p{
+                                font-size: 16px;
+                                line-height: 28px;
+                                color: #7c838e;
+                                font-weight: 400;
+                                font-family: "Poppins";
+                                margin-top: 14px;
+                            }
+                            span{
+                                position: absolute;
+                                top: 35px;
+                                right: 35px;
+                                color: $primary-color;
+                                font-size: 14px;
+                                background: #383838;
+                                padding: 1px 13px;
+                            }
+                        }
+                    }
+                }
+            }
+            #tab-two-tab-content{   
+                .box-top{
+                    h2{
+                        font-size: 28px;
+                        color: #ffffff;
+                        font-weight: 600;
+                        font-family:  "Montserrat", sans-serif;
+                        text-align: left;
+                    }
+                }
+                .prossess-ber-plugin span {
+                    color: #fff;
+                    font-weight: 400;
+                    font-size: 18px;
+                    font-family:  "Poppins", sans-serif;
+                    line-height: 26px;
+                    text-align: left;
+                    display: inherit;
+                }
+                
+                .barfiller {
+                    /* width: 448px; */
+                    height: 5px;
+                    position: relative;
+                    margin-bottom: 35px;
+                    margin-top: 20px;
+                    filter: drop-shadow(0px 10px 10px rgba(60, 115, 206, 0.2));
+                    background-color: #666666;
+                }
+                
+                .barfiller:last-child{
+                    margin-bottom: 0;
+                }
+                
+                .barfiller .fill {
+                    display: block;
+                    position: relative;
+                    width: 0px;
+                    height: 100%;
+                    background: #333;
+                    z-index: 1;
+                }
+                
+                .barfiller .tipWrap {
+                    display: none;
+                }
+                
+                .barfiller .tip {
+                    font-size: 16px;
+                    left: 0px;
+                    border-radius: 2px;
+                    position: absolute;
+                    z-index: 2;
+                    top: -39px;
+                    display: inline-block;
+                    padding: 2px 5px;
+                    background: #009e66;
+                }
+                
+                .stat-bar:nth-of-type(1) .stat-bar-rating {
+                    animation-delay: 0.25s;
+                    -webkit-animation-delay: 0.25s;
+                }
+                
+                span.fill {
+                    background: $primary-color !important;
+                }
+           }
+        }
+    }
+}
+
