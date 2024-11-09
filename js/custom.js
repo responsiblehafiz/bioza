@@ -294,6 +294,7 @@ $(".video-popup").magnificPopup({
 			autoplayTimeout: 10000,
 			dots: false,
 			nav: false,
+			margin: 30,
 			navText: ["<i class='bi bi-arrow-left''></i>", "<i class='bi bi-arrow-right''></i>"],
 			responsive: {
 				0: {
@@ -391,6 +392,33 @@ $(".video-popup").magnificPopup({
 		duration: 7000,
 	  });
 	  
+
+
+
+
+
+
+
+
+	      //======< Custom Tab >======
+		  $('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
+
+		  $(".tab ul.tabs li a").on("click", function(g) {
+			  var tab = $(this).closest('.tab'),
+				  index = $(this).closest('li').index();
+  
+			  tab.find('ul.tabs > li').removeClass('current');
+			  $(this).closest('li').addClass('current');
+  
+			  tab.find('.tab_content').find('div.tabs_item').not('div.tabs_item:eq(' + index + ')').slideUp();
+			  tab.find('.tab_content').find('div.tabs_item:eq(' + index + ')').slideDown();
+  
+			  g.preventDefault();
+		  });
+  
+	  });
+  
+  
 	
 
 

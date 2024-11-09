@@ -234,6 +234,14 @@ body::-webkit-scrollbar-thumb {
   textarea:focus {
 	outline: 0;
   }
+
+  input[type="text"] {
+    color: #fff;
+  }
+
+  textarea#massage {
+    color: #fff;
+  }
   
   ul {
 	list-style: outside none none;

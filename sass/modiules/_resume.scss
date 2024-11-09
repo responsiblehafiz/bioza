@@ -1,24 +1,21 @@
 .resume-section{
     background: #101010;
     .accordion-tabs{
-        .tabs{
-            .tab{
-                display: inline-block;
-                color: #fff;
-                margin-right: 5px;
-                background: #212121;
-                padding: 10px 25px;
-                transition: .5s;
-                cursor: pointer;
-                &#tab-one-label{
-                    background: $primary-color;
-                }
-                &:hover{
-                    background: $primary-color;
+        .tab{
+            .tabs{
+                margin-bottom: 40px;
+                li{
+                    display: inline-block;
+                    color: #fff;
+                    margin-right: 5px;
+                    background: #212121;
+                    padding: 10px 25px;
+                    transition: .5s;
+                    cursor: pointer;
                 }
             }
             #tab-one-tab-content{
-                &.tab-content{
+                &.tabs_item{
                     padding: 20px 20px 20px 10px;
                 }
                 position: relative;
