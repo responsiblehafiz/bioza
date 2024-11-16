@@ -1,31 +1,28 @@
-// /* Theme Default CSS */
-@import "variables";
-@import "mixin";
-@import "spacing";
-@import "resets";
-@import "typography";
-@import "helping";
-@import "global";
+
+// /* utils*/
+@import "utils/variables";
+@import "utils/global";
+@import "utils/helping";
+@import "utils/mixin";
+@import "utils/resets";
+@import "utils/spacing";
+@import "utils/typography";
+
+// /* layout */
+@import "layout/header";
+@import "layout/section-title";
+@import "layout/about";
+@import "layout/brand";
+@import "layout/faq";
+@import "layout/footer";
+@import "layout/hero";
+@import "layout/video";
+@import "layout/pricing";
+@import "layout/proces";
+@import "layout/service";
+@import "layout/testimonial";
 
 
-// /* nav menu  CSS */
-@import "partials/header-one";
-
-// /* nav menu  CSS */
-@import "utiliti/btns";
-@import "page/header";
-@import "reset/feature-area";
-
-// modiuls
-@import "modiules/search-popup";
-@import "modiules/about";
-@import "modiules/portfolio";
-@import "modiules/difarent";
-@import "modiules/animation";
-@import "modiules/resume";
 
 
-// section wize
-@import "modiules/hero-section/hero-section-one";
-@import "modiules/section-title/other-code";
-@import "modiules/service-section/service-section";
+
